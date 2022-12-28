@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="631.645" height="631.645" viewBox="0 0 631.645 631.645">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.753" y1="0.1" x2="0.224" y2="0.901" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d9a384"/>
+      <stop offset="1" stop-color="#f2b680" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <path id="beige_circle" data-name="beige circle" d="M315.823,0C490.247,0,631.645,141.4,631.645,315.823s-141.4,315.823-315.823,315.823S0,490.247,0,315.823,141.4,0,315.823,0Z" opacity="0.3" fill="url(#linear-gradient)"/>
+</svg>

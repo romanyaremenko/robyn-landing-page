@@ -1,0 +1,54 @@
+.header {
+  padding: 8px 0;
+  box-shadow: 0 2px 0 #9ca89e33;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 96px;
+  z-index: 99;
+  background: white;
+  transition: height 0.3s;
+  @media (max-width: 992px) {
+    height: 80px;
+  }
+  .container {
+    height: 100%;
+  }
+  &-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+  &-left {
+    height: 100%;
+    &__item {
+      img {
+        height: 100%;
+        object-fit: contain;
+        @media (max-width: 700px) {
+          width: 80px;
+          height: 53px;
+        }
+      }
+    }
+  }
+  &-right {
+    .primary-btn {
+      &:hover {
+        span {
+          color: #3AB54A;
+        }
+      }
+    }
+  }
+
+  &.fixed-top {
+    transition: height 0.3s;
+    height: 72px;
+  }
+}
+
+
+

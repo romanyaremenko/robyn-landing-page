@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="246.745" height="246.745" viewBox="0 0 246.745 246.745">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.102" y1="0.197" x2="0.85" y2="0.819" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6b86fa"/>
+      <stop offset="1" stop-color="#a4b4f8" stop-opacity="0.502"/>
+    </linearGradient>
+  </defs>
+  <path id="purple_circle" data-name="purple circle" d="M123.372,0A123.372,123.372,0,1,0,246.745,123.372,123.372,123.372,0,0,0,123.372,0Z" opacity="0.2" fill="url(#linear-gradient)"/>
+</svg>
