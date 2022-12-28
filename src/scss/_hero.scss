@@ -218,6 +218,11 @@
       align-items: center;
       justify-content: center;
       width: auto;
+      img {
+        @media (max-width: 992px) {
+          max-height: 46px;
+        }
+      }
     }
     .swiper-wrapper {
       display: flex;
@@ -260,6 +265,7 @@
     left: -95px;
     top: 10px;
     display: none;
+    z-index: -1;
     @media (max-width: 992px) {
       display: block;
     }
@@ -365,11 +371,17 @@
   justify-content: center;
   align-content: center;
   padding: 0 36px;
+  @media (max-width: 992px) {
+    background: #e8ebef;
+  }
   &__bg {
     position: absolute;
     inset: 0;
     width: 100%;
     height: 100%;
+    @media (max-width: 992px) {
+      display: none;
+    }
   }
   .swiper {
     max-width: 875px;
@@ -543,7 +555,7 @@
     }
     img {
       height: 100%;
-      transform: translateY(-5px);
+      transform: translateY(-12px);
     }
     .text {
       &-title {
