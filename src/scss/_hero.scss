@@ -118,6 +118,9 @@
       width: 100%;
       font-size: 18px;
       font-weight: 700;
+      @media (max-width: 425px) {
+        max-width: none;
+      }
     }
     .padlock {
       display: flex;
@@ -314,14 +317,19 @@
     flex-direction: column;
     max-width: 405px;
     width: 100%;
+    margin-left: 35px;
+    &:first-child {
+      margin-left: 0;
+    }
     @media (max-width: 992px) {
       margin-top: 40px;
+      margin-left: 0;
     }
     .images {
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+      box-shadow: 0 4px 16px rgb(0 0 0 / 15%);
       width: 64px;
       height: 64px;
       border-radius: 50%;
@@ -413,6 +421,7 @@
           bottom: -40px;
           right: -30px;
           display: block;
+          z-index: -1;
           @media (max-width: 700px) {
             display: none;
           }
@@ -423,6 +432,7 @@
           left: -20px;
           transform: rotate(-180deg);
           display: block;
+          z-index: -1;
           @media (max-width: 700px) {
             display: none;
           }
@@ -555,7 +565,10 @@
     }
     img {
       height: 100%;
-      transform: translateY(-12px);
+      transform: translateY(-8px);
+      @media (max-width: 700px) {
+        transform: translateY(-12px);
+      }
     }
     .text {
       &-title {
@@ -628,6 +641,9 @@
     background: #FFFFFF;
     width: auto;
     border: 2px solid #FFFFFF!important;
+    @media (max-width: 425px) {
+      width: 100%;
+    }
     span {
       color: #3AB54A;
     }
