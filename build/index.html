@@ -1,14 +1,51 @@
 <!DOCTYPE html>
-@@include('components/page-blocks/_head.html',{
-"lang":"en",
-"title":"Easy-webdev-startpack v3.0",
-"description":"Gulp pack for easy html/php markup development",
-"keywords":"",
-"favicon":"img/favicons/favicon",
-})
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+				content="Gulp pack for easy html/php markup development">
+	<meta name="keywords"
+				content="">
+	<link rel="shortcut icon"
+				href="img/favicons/favicon.svg"
+				type="image/svg+xml">
+	<link rel="shortcut icon"
+				href="img/favicons/favicon.webp"
+				type="image/webp">
+	<link rel="shortcut icon"
+				href="./img/favicon.png"
+				type="image/x-icon">
+	<link rel="stylesheet"
+				href="css/libs.min.css">
+	<link rel="stylesheet"
+				href="css/style.min.css">
+	<title>Easy-webdev-startpack v3.0</title>
+</head>
+
 
 <body>
-	@@include('components/page-blocks/_header.html')
+	<header class="header">
+    <div class="container">
+        <div class="header-content">
+            <div class="header-left">
+                <a href="/" class="header-left__item">
+                    <img width="132" height="86" src="./img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="header-right">
+                <div class="header-right__item">
+                    <a href="https://robyncapital.com/request-funding/?tab=get-started" target="_blank" class="button nav-link  primary-btn">
+                        <span>Request Funding</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
 
 	<main class="main">
 
@@ -224,8 +261,31 @@
 		 </div>
 
 	</main>
-	@@include('components/page-blocks/_footer.html')
-	@@include('components/page-blocks/_scripts.html')
+	<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-left">
+                <p>Follow Us</p>
+                <a href="https://www.facebook.com/RobynCapital" target="_blank">
+                    <img src="./img/footer/facebook.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/company/robyncapital/" target="_blank">
+                    <img src="./img/footer/linkedin.svg" alt="">
+                </a>
+            </div>
+            <div class="footer-right">
+                <a href="https://robyncapital.com/terms-and-conditions/" target="_blank"> Terms & Conditions</a>
+                <a href="https://robyncapital.com/privacy-policy/" target="_blank">Privacy Policy</a>
+                <hr>
+                <span>All Rights Reserved, Robyn Capital 2020</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+	<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+
 </body>
 
 </html>
